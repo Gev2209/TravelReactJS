@@ -1,0 +1,83 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(235, 234, 234);
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.322);
+}
+.header .logo {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo .icon {
+  font-size: 25px;
+  color: rgb(5, 121, 142);
+  transform: translateY(5px);
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    position: absolute;
+    background: rgb(235, 234, 234);
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: -600rem;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+    transition: all ease-in-out 0.3s;
+  }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItem {
+    padding: 1rem 0;
+  }
+  .header .navBar .navLists .navItem .navLink {
+    color: rgb(48, 48, 48);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: rgb(199, 255, 84);
+  }
+  .header .navBar .navLists .btn {
+    margin-top: 1rem;
+  }
+  .header .navBar .navLists .btn a {
+    font-weight: 600;
+  }
+  .header .navBar .closeNavBar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: rgb(5, 121, 142);
+  }
+  .header .navBar .closeNavBar:hover {
+    color: rgb(1, 153, 199);
+  }
+  .header .activeNavBar {
+    top: 7rem;
+  }
+}
+.header .toggleNavBar .icon {
+  font-size: 25px;
+  color: rgb(69, 69, 241);
+}
+.header .toggleNavBar:hover .icon {
+  color: rgb(22, 163, 182);
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:ital,wght@0,300;1,+300&family=Dancing+Script&family=Poppins:wght@300;400;500;600;700&family=Rubik+Iso&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Colors and Styling*/
+
+/* :root {
+    --goodColor: rbg(red,green,blue)
+    --PrimaryColor: hs1(199,100%,33%);
+    --SecondaryColor: hs1(187,85%,43%);
+    --gradientColor: linear-gradient(to right, hs1(187,85%,43%),hs1(199,100%,33%));
+    --whiteColor:hs1(0,0%,100%)
+    --blackColor:hs1(201,33%,16%)
+    --textColor: hs1(240,4%,36%)
+    --whiteColorDeam: hs1(0,0%,93%)
+    --greyText: rbg(190,190,190)
+    --inputColor: rbg(239,239,239)
+    --bodyColor: rbg(240,240,246)
+    --carBG: rbg(225,225,225)
+} */
+
+a {
+    text-decoration: none;
+    background:rgb(199,100%,33%) ;
+}
+
+li {
+    list-style: none;
+}
+
+.section {
+    padding: 64px 0 32px ;
+}
+
+.container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.icon {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 18px;
+    background: linear-gradient(rgb(0, 94, 100),rgb(57, 139, 245));
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn a {
+    color: white;
+    font-weight: 500;
+}
+
+/* .btn:hover {
+    background: var(--SecondaryColor);
+} */
+
+img,video {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    font-size: 100%;
+}
+
+body {
+    background: rgb(240,240,246);
+}
